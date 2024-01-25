@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let pabp = 70;
+        let mtk = 82;
+        let dpk = 77;
+
+        let rata = (pabp + mtk + dpk) / 3;
+        
+        if (rata > 80 && rata < 100) {
+            grade = A;
+        } else if (rata < 80 && rata > 75) {
+            grade = B;
+        } else if (rata < 75 && rata > 65) {
+            grade = C;
+        } else if (rata < 65 && rata > 45) {
+            grade = D;
+        } else if (rata > 0 && rata < 45) {
+            grade = E
+        } else {
+            grade = K;
+        }
+
+        console.log(grade)
+    </script>
+</body>
+</html>
